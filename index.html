@@ -94,7 +94,7 @@
             </div>
             <div class="col-85">
                 <input type="radio" name="kieli" id="suomi" value="suomi" required><label>Suomi</label></input>
-                <input type="radio" name="kieli" id="muu" value="muu" required><label>Muu kuin suomi</label></input> <span class="error" id="kielivirhe"> Valitse kieli</span>
+                <input type="radio" name="kieli" id="muu" value="muu" required><label>Muu kuin suomi</label></input> <span class="error" id="virhekieli"> Valitse kieli</span>
             </div>
         </div>
         <div class="row">
@@ -107,7 +107,7 @@
         </div>
         <br>
         <div class="row">
-            <input onclick="submit(document.getElementById('sukuvirhe'), document.getElementById('kielivirhe'))" type="submit" id="submit" value="Lähetä">
+            <input onclick="submit(document.getElementById('sukuvirhe'), document.getElementById('virhekieli'))" type="submit" id="submit" value="Lähetä">
         </div>  
     </div>
     <script src="lomakekoodi.js"></script>
